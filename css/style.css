@@ -24,23 +24,45 @@ body {
   flex: 1 1 auto;
 }
 
+/* header */
 
+.header {
+}
+.topmenu {
+  min-height: 120px;
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  color: #484848;
+}
+.header__logo {
+}
+.logo {
+}
+.header__menu {
+}
+.menu__list {
+  display: flex;
+  justify-content: space-between;
+  gap: 48px;
+  list-style: none;
+}
+.menu__item {
+}
+.menu__link {
+  text-decoration: none;
+  color: #484848;
+  font-size: 24px;
+  font-weight: 400;
+}
+.menu_lang {
+  display: flex;
+  gap: 25px;
+  font-size: 24px;
+  font-weight: 400;
+}
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/* header end */
 
 
 
