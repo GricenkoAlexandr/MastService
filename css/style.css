@@ -8,8 +8,9 @@ body {
 }
 
 .container {
-  max-width: 1400px;
+  max-width: 1430px;
   margin: 0px auto;
+  padding: 0 15px;
 }
 
 .wrapper {
