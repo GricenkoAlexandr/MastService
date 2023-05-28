@@ -18,6 +18,7 @@ body {
   display: flex;
   flex-direction: column;
   overflow: clip;
+  width: 100vw;
 }
 
 .main {
@@ -26,8 +27,6 @@ body {
 
 /* header */
 
-.header {
-}
 .topmenu {
   min-height: 120px;
   display: flex;
@@ -35,20 +34,14 @@ body {
   justify-content: space-around;
   color: #484848;
 }
-.header__logo {
-}
-.logo {
-}
-.header__menu {
-}
+
 .menu__list {
   display: flex;
   justify-content: space-between;
   gap: 48px;
   list-style: none;
 }
-.menu__item {
-}
+
 .menu__link {
   text-decoration: none;
   color: #484848;
@@ -64,32 +57,88 @@ body {
 
 .bottommenu {
   display: flex;
-  align-items: center;
   justify-content: space-between;
+  align-items: center;
+  min-height: 80px;
   background-color: #F9F7F8;
 }
 .bottommenu__cat,
 .callback {
+  width: 350px;
+  height: 100px;
   background-color: #FFC226;
-  width: 356px;
-  height: 80px;
-  border: none;
+  display:flex;
+  justify-content: center;
+  align-items:center;
+  font-style: normal;
   font-weight: 600;
   font-size: 24px;
   line-height: 31px;
+  font-style: normal;
 }
 .cat_img {
+  margin-right: 16px;
 }
+
 .bottommenu__search {
-  width: 684px
+  width: 600px
+
+}
+
+.bottommenu__search input {
+  width: 420px;
+  height: 40px;
+  border: 1px solid #E2E2E2;
+  margin-left: 44px;
+}
+
+.bottommenu__search button{
+  margin-left: -5px;
+  border-width: 0;
+  height: 44px;
+  width: 120px;
+  background-color:#FFC226;
+  color: #484848;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 20px;
 }
 .bottommenu__messagers {
+  display: flex;
+  justify-content: center;
+  align-items:center;
+
 }
+
+.bottommenu__messagers a {
+  margin-right: 16px;
+}
+
 .bottommenu__phone {
+  display:flex;
+  justify-content: center;
+  align-items:center;
+
 }
+
+.bottommenu__phone img{
+  margin-right: 12px;
+}
+
 .main_phone {
+  color: #484848;
+  text-decoration: none;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
 }
-.callback {
+
+.header__slider {
+  height: 790px;
+  background: no-repeat center url("../img/headerimg.jpg");
+
 }
 
 /* header end */
