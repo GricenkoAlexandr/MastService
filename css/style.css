@@ -25,6 +25,20 @@ body {
   flex: 1 1 auto;
 }
 
+.sitebtn {
+  background-color:#FFC226;
+  color:#484848;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 26px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 240px;
+  height: 56px;
+  text-decoration: none;
+}
+
 /* header */
 
 .topmenu {
@@ -136,10 +150,38 @@ body {
 }
 
 .header__slider {
+}
+.container {
+}
+.slider__content {
+}
+.slider__title {
+}
+.slider__text {
+}
+.slider__button {
+}
+.sitebtn {
+}
+.contact__form {
+}
+.form__title {
+}
+.form__text {
+}
+.formbtn {
+}
+.form_aftertext {
+}
+
+.header__slider {
   height: 790px;
   background: no-repeat center url("../img/headerimg.jpg");
 
 }
+
+
+
 
 /* header end */
 
