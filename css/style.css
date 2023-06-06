@@ -633,16 +633,21 @@ body {
 /* article block */
 
 .article__content {
-  height: 500px;
+  min-height: 500px;
 
 }
+
+.section__text_articlehide,
 .section__text_article {
   font-size: 21px;
   line-height: 125%;
   color: #484848;
   margin-top: 52px;
   text-align: justify;
+}
 
+.section__text_articlehide {
+  margin-top: 0;
 }
 
 .articlebtnbl {
@@ -654,6 +659,7 @@ body {
 
 .articlebtn {
   margin-top: 32px;
+  margin-bottom: 120px;
   display: flex;
   justify-content: center;
   align-items:center;
@@ -665,7 +671,11 @@ body {
   font-size: 20px;
   line-height: 26px;
   color: #484848;
+  cursor: pointer;
+}
 
+.hide {
+  display: none;
 }
 
 /* article block end */
@@ -677,6 +687,81 @@ body {
 .footer {
   background-color: #1F1F1F;
   width: 100%;
-  height: 200px;
+  min-height: 540px;
 }
+  /* upper footer */
+
+  .upperfooter {
+    width: 100%;
+    max-height: 146px;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 60px;
+  }
+  .upperfooter__block {
+    width: 40%;
+    height: 150px;
+  }
+
+  .upperfooter__block:nth-child(3) {
+    width: 20%;
+  }
+
+  .upperfooter__title {
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 125%;
+    color: #FFFFFF;
+  }
+  .upperfooter__list {
+    margin-top: 17px;
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 4px;
+    height: 104px;
+  }
+  .upperfooter__item {
+    height: 23px;
+  }
+  .upperfooter__link {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 125%;
+    color: #B9B9B9;
+    text-decoration: none;
+  }
+
+  /* upperfooter end */
+
+   /* lower footer */
+
+
+
+   /* lower footer end */
+
+  /* copyright */
+
+  .copyright {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 36px;
+  }
+
+  .copyright__text {
+    width: 650px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 125%;
+    text-align: center;
+    color: #B9B9B9;
+  }
+
+   /* copyright end */
+
+
 /* footer end */
