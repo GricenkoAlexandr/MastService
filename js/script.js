@@ -1,5 +1,6 @@
 
-/* categori menu */
+/* categori menu  */
+
 const headercat=document.querySelector('.bottommenu__cat'),
       catlist=document.querySelector('.cat__menu');
 

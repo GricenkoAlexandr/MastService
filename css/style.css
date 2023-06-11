@@ -342,6 +342,10 @@ body {
   color: #484848;
 }
 
+.bottommenu__cat:hover  .cat__menu {
+  display: block;
+}
+
 /* Menu list  end */
 
 /* header end */
@@ -777,6 +781,7 @@ body {
     width: 20%;
   }
 
+  .lowerfooter__title,
   .upperfooter__title {
     font-weight: 700;
     font-size: 20px;
@@ -807,7 +812,107 @@ body {
   /* upperfooter end */
 
    /* lower footer */
+   .lowerfooter {
+    display: flex;
+    align-items:center;
+    justify-content: space-between;
+    margin-top: 60px;
+    color:#ffffff;
+  }
 
+  .lowerfooter__callme {
+    display: flex;
+    flex-wrap: wrap;
+    align-items:center;
+    width: 40%;
+  }
+
+  .main_phone__footer {
+    color:#FFFFFF;
+    text-decoration: none;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 125%;
+  }
+
+  .caalme__phone, 
+  .lowerfooter__logo {
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+    gap: 30px;
+    
+  }
+
+  .lowerfooter__call_me{
+    width: 240px;
+    height: 60px;
+    background: #FFC226;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 125%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #1F1F1F;
+    cursor:pointer;
+  }
+
+  .lowerfooter__logotext {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 125%;
+    color: #FFC226;
+    width: 224px;
+    height: 60px;
+  }
+
+  .lowerfooter__wrightus,
+  .lowerfooter__social {
+    width: 20%;
+  }
+
+  .lowerfooter__wrightus a,
+  .lowerfooter__social a{
+    margin-right: 8px;
+  }
+
+
+  .lowerfooter__title {
+    margin-bottom: 12px;
+  }
+
+  .lowerfooter__btn {
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 125%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 240px;
+    height: 60px;
+    border: 2px solid #FFC226;
+    color:#FFC226;
+    margin-top: 28px;
+    cursor:pointer;
+  }
+
+  .lowerfooter__contact {
+    width: 20%;
+  }
+  .lowerfooter__contacttext {
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 125%;
+    color: #B9B9B9;
+    margin-top: 8px;
+  }
+  .contacttext__box {
+    font-weight: 450;
+    color:#ffffff;
+    margin-top: 12px;
+  }
 
 
    /* lower footer end */
