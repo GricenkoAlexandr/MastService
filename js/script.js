@@ -26,3 +26,20 @@ const articlebtn=document.querySelector('.articlebtn'),
     console.log('done');
   })
 
+
+  /* swiper */
+  
+  const swiper = new Swiper('.swiper__service', {
+    // Optional parameters
+    direction: 'horizontal',  
+      slidesPerView: 3,
+      spaceBetween: 36,
+
+  
+    // Navigation arrows
+    navigation: {
+      nextEl: '.swiper-button-next',
+      prevEl: '.swiper-button-prev',
+    },
+  
+  });

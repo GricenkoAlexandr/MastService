@@ -290,7 +290,6 @@ body {
   position: relative;
 }
 
-
 .cat__menu {
   width: 100%;
   position: absolute;
@@ -940,3 +939,36 @@ body {
 
 
 /* footer end */
+
+.swiper__service {
+  width: 100%;
+  margin-top: 48px;
+  overflow: hidden;
+  position: relative;
+  height: 100%;
+}
+
+.swiper-wrapper {
+  width: 1152px;
+  height: 360px;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+  align-items:center;
+}
+
+
+.swiper-slide {
+  width: 360px;
+  height: 360px;
+  background: #F9F7F8;
+  padding: 10px;
+}
+
+.swiper-button-next:after {
+  content: url(../img/rsliderarrow.svg);
+}
+
+.swiper-button-prev:after {
+  content: url(../img/lsliderarrow.svg);
+}
